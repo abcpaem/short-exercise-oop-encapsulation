@@ -77,11 +77,20 @@ I am in London and it is 🌦. Ahhh...it's just right 😊!. The temperature in 
   
 **3.** As an added challenge, could you write some unit tests to test the class' methods?
 
+- To see the tests click [here](src/test/java/com/techreturners/encapsulation/bankaccount/model/WeatherReporterTest.java).
+- To run the tests:
+  - cd to the project root folder in the command line
+  - ``mvn test`` 
+
 ---
 ## Technology
-This project was built using Java version 17.0.2 and the Community Edition for the IntelliJ 2021.3.2 development environment.
+This project was built using:
+- Java version 17.0.2
+- JUnit 5.8.2 for unit testing
+- Apache Maven 3.8.5 as project manager
+- Community Edition for the IntelliJ 2021.3.2 development environment.
 
 ## How to run the app
 1) cd to the project root folder in the command line
-2) ``javac -d bin src/main/java/com/techreturners/encapsulation/bankaccount/app/*.java src/main/java/com/techreturners/encapsulation/bankaccount/model/*.java``
-3) ``java -cp bin com/techreturners/encapsulation/bankaccount/app/Main``
+2) ``mvn compile``
+3) ``mvn exec:java -Dexec.mainClass=com.techreturners.encapsulation.bankaccount.app.Main``
