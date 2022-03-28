@@ -55,10 +55,33 @@ the `DodgyBankAccount`? How is it designed to prevent it from being misused? Are
 - Now that you've had the chance to explore a well-encapsulated vs. poorly-encapsulated class,
 your next challenge is to put your newly minted skills into practice 💪!
   
-- Refactor the `WeatherReporter` class located in the [model](src/main/java/com/techreturners/encapsulation/bankaccount/model) directory.
+**1.** Refactor the `WeatherReporter` class located in the [model](src/main/java/com/techreturners/encapsulation/bankaccount/model) directory.
+
+**Answer:** Here is the [WeatherReporter class](src/main/java/com/techreturners/encapsulation/bankaccount/model/WeatherReporter.java) refactored. Please check the file history to see the old non-refactored class.
   
-- You may want to think about Encapsulation here. Do the methods follow the Single Responsibility Principle (SRP)? Are the method names suitable?
+**2.** You may want to think about Encapsulation here. Do the methods follow the Single Responsibility Principle (SRP)? Are the method names suitable?
   Are there any magic numbers / hardcoded numbers in the code that needs to be represented by a constant?
   Are there better ways to write the code?
+
+**Answer:** During the refactoring:
+- Method names were updated to reflect better the behaviour.
+- Some properties were encapsulated.
+- The Fahrenheit temperature conversion was moved to its own method (SRP).
+- Some hardcoded numbers were moved as constants.
+- The weather forecast by city is now represented as a Map table.
+
+Output:
+```
+I am in London and it is 🌦. Ahhh...it's just right 😊!. The temperature in Fahrenheit is 66,2.
+```
   
-- As an added challenge, could you write some unit tests to test the class' methods?
+**3.** As an added challenge, could you write some unit tests to test the class' methods?
+
+---
+## Technology
+This project was built using Java version 17.0.2 and the Community Edition for the IntelliJ 2021.3.2 development environment.
+
+## How to run the app
+1) cd to the project root folder in the command line
+2) ``javac -d bin src/main/java/com/techreturners/encapsulation/bankaccount/app/*.java src/main/java/com/techreturners/encapsulation/bankaccount/model/*.java``
+3) ``java -cp bin com/techreturners/encapsulation/bankaccount/app/Main``
