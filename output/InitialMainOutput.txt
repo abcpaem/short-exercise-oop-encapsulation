@@ -1,0 +1,30 @@
+--- DODGY BANK ACCOUNT ---
+
+Mmm...I spot a dodgy bank account! Let's make one!
+What is my current balance?
+Your account balance is 0
+Let's deposit an amount of 30
+Your account balance is 80
+Wow! Looks like we get a reward of 50 when we deposit an amount
+Let's be naughty and add rewards without depositing!
+Your account balance is 230
+Wow! We're rich!
+Let's make a lot of money right now! Let's change the account balance directly!
+Your account balance is 1000000
+😻 Weeeeee!!!!
+
+--- SECURE BANK ACCOUNT ---
+
+Mmm...let's make a secure bank account!
+What is my current balance?
+Your account balance is 0
+Let's deposit an amount of 30
+Your account balance is 80
+Wow! Looks like we get a reward of 50 when we deposit an amount
+Let's be naughty and add rewards without depositing!
+Oh no :( It looks like we can't do this - it's too secure!
+Your account balance is 80
+Let's make a lot of money right now! Let's change the account balance directly!
+Oh no :( It looks like we can't do this - it's too secure!
+Your account balance is 80
+😹 Well I guess that's secure!
